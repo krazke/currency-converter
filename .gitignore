@@ -89,3 +89,5 @@ fastlane/test_output
 
 iOSInjectionProject/
 currency-converter.xcodeproj/project.xcworkspace/xcshareddata
+currency-converter.xcworkspace/xcshareddata
+Pods
