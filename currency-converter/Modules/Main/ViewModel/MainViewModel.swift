@@ -91,7 +91,7 @@ private extension ViewModel {
                 .receive(on: DispatchQueue.main)
                 .sink(receiveValue: { [weak self] balances in
                     self?.view.display(
-                        balances: balances.sorted(by: { $0.amount > $1.amount })
+                        balances: balances
                     )
                 })
         ]
