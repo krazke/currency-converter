@@ -1,6 +1,7 @@
 {
-  "colors" : [
+  "images" : [
     {
+      "filename" : "sell_icon.pdf",
       "idiom" : "universal"
     }
   ],

@@ -40,6 +40,7 @@ enum Injection {
             parent: serviceContainer,
             defaultObjectScope: .transient
         )
+        .registerUtility()
         .registerModules()
 
         return moduleContainer

@@ -14,6 +14,12 @@ extension Module {
 // MARK: - Interface
 
 protocol MainViewModelInterface {
+    var sellAmount: Float? { get set }
+    var sellCurrency: String? { get set }
+    var buyAmount: Float? { get set }
+    var buyCurrency: String? { get set }
+    
     func didLoad()
+    func didTouchSubmit()
 }
 

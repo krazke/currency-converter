@@ -13,5 +13,16 @@ extension Module {
 
 // MARK: - Interface
 
-protocol MainViewInterface {
+protocol MainViewInterface: AnyObject {
+    func display(balances: [Balance])
+    func display(
+        amount: Float,
+        commission: Float,
+        isSell: Bool
+    )
+    func display(error: String)
+    func showAlert(
+        title: String?,
+        message: String?
+    )
 }

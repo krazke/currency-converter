@@ -5,12 +5,14 @@ inhibit_all_warnings!
 
 def ui_pods
   pod 'SnapKit'
+  pod 'DropDown'
 end
 
 def utility_pods
   pod 'Swinject'
   pod 'Moya'
   pod 'RealmSwift', '~>10'
+  pod 'R.swift'
 end
 
 target 'currency-converter' do

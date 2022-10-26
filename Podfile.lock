@@ -1,9 +1,13 @@
 PODS:
   - Alamofire (5.6.1)
+  - DropDown (2.3.13)
   - Moya (15.0.0):
     - Moya/Core (= 15.0.0)
   - Moya/Core (15.0.0):
     - Alamofire (~> 5.0)
+  - R.swift (6.1.0):
+    - R.swift.Library (~> 5.3.0)
+  - R.swift.Library (5.3.0)
   - Realm (10.28.1):
     - Realm/Headers (= 10.28.1)
   - Realm/Headers (10.28.1)
@@ -13,7 +17,9 @@ PODS:
   - Swinject (2.8.1)
 
 DEPENDENCIES:
+  - DropDown
   - Moya
+  - R.swift
   - RealmSwift (~> 10)
   - SnapKit
   - Swinject
@@ -21,7 +27,10 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - DropDown
     - Moya
+    - R.swift
+    - R.swift.Library
     - Realm
     - RealmSwift
     - SnapKit
@@ -29,12 +38,15 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  R.swift: ec98ff71c4ab2f6fd01dd077e5afd15e63a4834c
+  R.swift.Library: 0fc583cb55a99e28901299cc451614cad1161962
   Realm: f4674e0e7ee537f67a78d79bd8319bc777d61d06
   RealmSwift: 0e0e4786685c4442bf56d3831dfefb5fa05d6fd6
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   Swinject: 97112918bd7e0785dc2df7036213f3c8cbba6586
 
-PODFILE CHECKSUM: 5f6e887c547bd4d387196bf8c0b40a40a0fb7524
+PODFILE CHECKSUM: e33f2a23222618a78029904964a9752d4e3607d2
 
 COCOAPODS: 1.11.3

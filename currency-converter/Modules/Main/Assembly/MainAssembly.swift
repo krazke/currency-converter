@@ -12,12 +12,14 @@ private typealias Module = Main
 extension Module {
     final class Assembly: BaseModuleAssembly, Assemblying {
         func assemble() -> UIViewController {
-            let router = Router()
-            let viewModel = ViewModel()
+            let viewModel = ViewModel(
+                exchangeService: injection.inject(ExchangeServiceInterface.self)!,
+                commissionService: injection.inject(CommissionServiceInterface.self)!
+            )
             let view = View()
+            view.keyboardObserver = injection.inject(KeyboardObserverInterface.self)!
             
-            router.view = view
-            viewModel.router = router
+            viewModel.view = view
             view.viewModel = viewModel
             
             return view

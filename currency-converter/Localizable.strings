@@ -1,0 +1,41 @@
+/* 
+  Localizable.strings
+  currency-converter
+
+  Created by krazke on 26.10.2022.
+  
+*/
+
+// MARK: - Common
+
+"common.submit" = "SUBMIT";
+"common.ok" = "OK";
+"common.error" = "Error";
+"common.succes" = "Success";
+
+// MARK: - Errors
+
+"error.unknown" = "Something went wrong.";
+"error.insufficient_funds" = "Insufficient funds.\nTotal deal size is %.2f %@";
+"error.insufficient_funds.commission" = ". Commission is %.2f %@";
+"error.empty_sell_amount" = "Sell amount can't be empty";
+
+// MARK: - Balance View
+
+"balance.header" = "MY BALANCES";
+"balance.balance_label" = "%.2f %@";
+
+// MARK: - Exchange View
+
+"exchange.header" = "CURRENCY EXCHANGE";
+"exchange.sell_title" = "Sell";
+"exchange.buy_title" = "Buy";
+"exchange.amount" = "%.2f";
+"exchange.amount_placeholder" = "Amount";
+
+// MARK: - Main Module
+
+"main.title" = "Currency converter";
+"main.commission_message.free" = "Commission is not charged";
+"main.commission_message.some" = "Commission is %.2f";
+"main.success_message" = "You have converted %.2f %@ to %.2f %@. Commission Fee - %.2f %@.";
